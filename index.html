@@ -9,11 +9,11 @@
   <body>
     <header>
       <nav>
-        <a href="" class="logo">Hamza Khan</a>
+        <a href="#" class="logo">Hamza Khan</a>
         <ul class="nav-links">
-          <li><a href="" class="nav-link">Skills</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
@@ -35,8 +35,8 @@
             decisions, and build things myself.
           </p>
           <div class="btn-container">
-            <a class="btn btn-primary">View My Work</a>
-            <a class="btn btn-secondary">Get in Touch</a>
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
           </div>
         </div>
 
@@ -118,6 +118,106 @@
         </div>
       </section>
 
+      <!-- skills section -->
+      <section id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>What I'm learning and using</h2>
+          <p class="section-intro">
+            I'm early in my coding journey, so this list is honest: the skills
+            I'm actively building, plus the tools I use every day at work.
+          </p>
+        </div>
+
+        <div class="card-row">
+          <div class="card skill-card">
+            <div class="card-heading">
+              <h3 class="card-title">Frontend</h3>
+              <p class="card-caption">Learning now in my bootcamp</p>
+            </div>
+            <ul class="chip-list">
+              <li class="chip">HTML</li>
+              <li class="chip">CSS</li>
+              <li class="chip">Flexbox</li>
+              <li class="chip">JavaScript basics</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="card-heading">
+              <h3 class="card-title">Backend basics</h3>
+              <p class="card-caption">Foundations from CS50</p>
+            </div>
+            <ul class="chip-list">
+              <li class="chip">Python</li>
+              <li class="chip">SQL</li>
+              <li class="chip">C</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="card-heading">
+              <h3 class="card-title">Tools</h3>
+              <p class="card-caption">
+                Relearning Git; the rest I use daily at work
+              </p>
+            </div>
+            <ul class="chip-list">
+              <li class="chip">Git</li>
+              <li class="chip">GitHub</li>
+              <li class="chip">Figma</li>
+              <li class="chip">Linear</li>
+              <li class="chip">Intercom</li>
+              <li class="chip">Stripe</li>
+              <li class="chip">Notion</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects section -->
+      <section id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Things I'm building</h2>
+          <p class="section-intro">
+            Each project shows its real status. I'll update this page as I
+            finish things.
+          </p>
+        </div>
+
+        <div class="card-row">
+          <article class="card project-card">
+            <div class="project-card-body">
+              <p class="status-badge">In progress</p>
+              <h3 class="card-title">This portfolio</h3>
+              <p class="project-text">
+                My first hand-coded website, built from my own Figma design with
+                semantic HTML and one CSS file. Responsive from phone to
+                desktop, with no JavaScript.
+              </p>
+              <p class="label project-label">Built with</p>
+              <ul class="chip-list">
+                <li class="chip">HTML</li>
+                <li class="chip">CSS</li>
+              </ul>
+            </div>
+            <a
+              href="https://github.com/hamzakhan7372/portfolio"
+              class="project-link"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub ↗</a
+            >
+          </article>
+
+          <article class="coming-soon-card">
+            <h3 class="card-title">More projects coming soon</h3>
+            <p class="project-text">I'll add new work here as I build it.</p>
+          </article>
+        </div>
+      </section>
+
       <!-- contact section -->
       <section id="contact">
         <div class="contact-text-section">
@@ -130,7 +230,7 @@
         </div>
 
         <div class="contact-info">
-          <a href="" class="contact-card-item">
+          <a href="mailto:hamzaqasir70@gmail.com" class="contact-card-item">
             <div>
               <p class="label contact-label">EMAIL</p>
               <p class="contact-card-value">hamzaqasir70@gmail.com</p>
@@ -151,7 +251,12 @@
             </div>
           </a>
 
-          <a href="" class="contact-card-item">
+          <a
+            href="https://www.linkedin.com/in/hamza-k-126271254"
+            class="contact-card-item"
+            target="_blank"
+            rel="noopener"
+          >
             <div>
               <p class="label contact-label">LINKEDIN</p>
               <p class="contact-card-value">
@@ -174,7 +279,12 @@
             </div>
           </a>
 
-          <a href="" class="contact-card-item">
+          <a
+            href="https://github.com/hamzakhan7372"
+            class="contact-card-item"
+            target="_blank"
+            rel="noopener"
+          >
             <div>
               <p class="label contact-label">GITHUB</p>
               <p class="contact-card-value">github.com/hamzakhan7372</p>
