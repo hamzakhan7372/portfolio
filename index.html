@@ -84,10 +84,10 @@
       <nav>
         <a href="#" class="logo">Hamza Khan</a>
         <ul class="nav-links">
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#about" class="nav-link" data-track="about">About</a></li>
+          <li><a href="#skills" class="nav-link" data-track="skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link" data-track="projects">Projects</a></li>
+          <li><a href="#contact" class="nav-link" data-track="contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -108,8 +108,8 @@
             decisions, and build things myself.
           </p>
           <div class="btn-container">
-            <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            <a href="#projects" class="btn btn-primary" data-track="view_work" >View My Work</a>
+            <a href="#contact" class="btn btn-secondary" data-track="get_in_touch">Get in Touch</a>
           </div>
         </div>
 
@@ -389,5 +389,7 @@
         <p class="footer-text">Designed in Figma, hand-coded with HTML & CSS</p>
       </div>
     </footer>
+
+    <script src="./scripts/tracking.js"></script>
   </body>
 </html>
